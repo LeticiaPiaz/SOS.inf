@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_escuro"
+    tools:context=".ui.home.HomeFragment">
+
+    <View
+        android:id="@+id/rectangle_1_"
+        android:layout_width="370dp"
+        android:layout_height="195dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/chamado_aberto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/abertura_"
+        android:layout_width="58dp"
+        android:layout_height="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/abertura_"
+        android:textAppearance="@style/abertura_"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/atendente"
+        android:layout_width="73dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/atendente"
+        android:textAppearance="@style/atendente"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <TextView
+        android:id="@+id/assunto"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/assunto"
+        android:textAppearance="@style/assunto"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <TextView
+        android:id="@+id/leticia_pia"
+        android:layout_width="186dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/funcionario"
+        android:textAppearance="@style/funcionario"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <View
+        android:id="@+id/ellipse_5"
+        android:layout_width="77dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_1"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/lp"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/letrasINI_func"
+        android:textAppearance="@style/letrasINI_func"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.10"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/francisco_t"
+        android:layout_width="130dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/posto"
+        android:textAppearance="@style/posto"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.278" />
+
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="109dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_atender"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <TextView
+        android:id="@+id/atender"
+        android:layout_width="61dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/atender"
+        android:textAppearance="@style/atender"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1_"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_1_"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_1_"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_1_"
+        app:layout_constraintVertical_bias="0.93" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

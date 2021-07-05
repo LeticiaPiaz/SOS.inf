@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Novo chamado -->
+    <TextView
+        android:id="@+id/novo_chamad"
+        android:layout_width="135dp"
+        android:layout_height="23dp"
+        android:text="@string/novo_chamad"
+        android:textAppearance="@style/novo_chamad"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/line_6"
+        android:layout_width="212dp"
+        android:layout_height="0dp"
+        android:background="@drawable/line_6"
+        />
+
+
+    <!-- drawable/line_6.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="213dp"
+        android:height="1dp"
+        android:viewportWidth="213"
+        android:viewportHeight="1"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0.5 0.5H212.5H0.5Z"
+                />
+
+        </group>
+
+        <path
+            android:pathData="M0.5 0.5H212.5H0.5Z"
+            android:strokeWidth="1"
+            android:strokeColor="#00585A"
+            />
+
+    </vector>
+
+
+
+    <!-- Rectangle 19 -->
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle_1"
+        />
+
+
+    <!-- drawable/rectangle_1.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="293dp"
+        android:height="50dp"
+        android:viewportWidth="293"
+        android:viewportHeight="50"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M16 0H277C285.837 0 293 7.16344 293 16V34C293 42.8366 285.837 50 277 50H16C7.16344 50 0 42.8366 0 34V16C0 7.16344 7.16344 0 16 0Z"
+                />
+
+            <path
+                android:pathData="M0 0V50H293V0"
+                android:fillColor="#003F1D"
+                />
+
+            <path
+                android:pathData="M16 0H277C285.837 0 293 7.16344 293 16V34C293 42.8366 285.837 50 277 50H16C7.16344 50 0 42.8366 0 34V16C0 7.16344 7.16344 0 16 0Z"
+                android:strokeWidth="2"
+                android:strokeColor="#003300"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- Rectangle 21 -->
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="293dp"
+        android:layout_height="148dp"
+        android:background="@drawable/rectangle_2"
+        />
+
+
+    <!-- drawable/rectangle_2.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="293dp"
+        android:height="148dp"
+        android:viewportWidth="293"
+        android:viewportHeight="148"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M16 0H277C285.837 0 293 7.16344 293 16V132C293 140.837 285.837 148 277 148H16C7.16344 148 0 140.837 0 132V16C0 7.16344 7.16344 0 16 0Z"
+                />
+
+            <path
+                android:pathData="M0 0V148H293V0"
+                android:fillColor="#003F1D"
+                />
+
+            <path
+                android:pathData="M16 0H277C285.837 0 293 7.16344 293 16V132C293 140.837 285.837 148 277 148H16C7.16344 148 0 140.837 0 132V16C0 7.16344 7.16344 0 16 0Z"
+                android:strokeWidth="2"
+                android:strokeColor="#003300"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- Line 6 -->
+    <View
+        android:id="@+id/line_6"
+        android:layout_width="345dp"
+        android:layout_height="0dp"
+        android:background="@drawable/line_6"
+        />
+
+
+    <!-- drawable/line_6.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="346dp"
+        android:height="1dp"
+        android:viewportWidth="346"
+        android:viewportHeight="1"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0.5 0.5H345.503H0.5Z"
+                />
+
+        </group>
+
+        <path
+            android:pathData="M0.5 0.5H345.503H0.5Z"
+            android:strokeWidth="1"
+            android:strokeColor="#00585A"
+            />
+
+    </vector>
+
+
+
+    <!-- Assunto -->
+    <TextView
+        android:id="@+id/assunto"
+        android:layout_width="74dp"
+        android:layout_height="23dp"
+        android:text="@string/assunto"
+        android:textAppearance="@style/assunto"
+        android:gravity="top"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 23sp
+    -->
+    <!-- styles.xml -->
+    <style name="assunto">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #A4E5C2
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="assunto">
+
+        Assunto
+    </string>
+
+
+
+
+    <!-- Descrição -->
+    <TextView
+        android:id="@+id/descri_o"
+        android:layout_width="89dp"
+        android:layout_height="23dp"
+        android:text="@string/descri_o"
+        android:textAppearance="@style/descri_o"
+        android:gravity="top"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 23sp
+    -->
+    <!-- styles.xml -->
+    <style name="descri_o">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #A4E5C2
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="descri_o">
+
+        Descri\u00C3\u00A7\u00C3\u00A3o
+    </string>
+
+
+
+
+    <!-- Line 7 -->
+    <View
+        android:id="@+id/line_7"
+        android:layout_width="15.03dp"
+        android:layout_height="0dp"
+        android:background="@drawable/line_7"
+        />
+
+
+    <!-- drawable/line_7.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="16.03dp"
+        android:height="1dp"
+        android:viewportWidth="16.03"
+        android:viewportHeight="1"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0.5 0.5H15.5333H0.5Z"
+                />
+
+        </group>
+
+        <path
+            android:pathData="M0.5 0.5H15.5333H0.5Z"
+            android:strokeWidth="1"
+            android:strokeColor="#5AAF81"
+            />
+
+    </vector>
+
+
+
+    <!-- Sistema de saude -->
+    <TextView
+        android:id="@+id/sistema_de_"
+        android:layout_width="119dp"
+        android:layout_height="18dp"
+        android:text="@string/sistema_de_"
+        android:textAppearance="@style/sistema_de_"
+        android:gravity="top"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 18sp
+      (identical to box height)
+    -->
+    <!-- styles.xml -->
+    <style name="sistema_de_">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #5AAF81
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="sistema_de_">
+
+        Sistema de saude
+    </string>
+
+
+
+
+    <!-- Polygon 1 -->
+    <View
+        android:id="@+id/polygon_1"
+        android:layout_width="16dp"
+        android:layout_height="11dp"
+        android:background="@drawable/polygon_1"
+        />
+
+
+    <!-- drawable/polygon_1.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="16dp"
+        android:height="11dp"
+        android:viewportWidth="16"
+        android:viewportHeight="11"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0H16V11H0V0Z"
+                />
+
+            <path
+                android:pathData="M0 0V11H16V0"
+                android:fillColor="#5AAF81"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- Salvar -->
+    <TextView
+        android:id="@+id/salvar"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:text="@string/salvar"
+        android:textAppearance="@style/salvar"
+        android:gravity="top"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 23sp
+    -->
+    <!-- styles.xml -->
+    <style name="salvar">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #A4E5C2
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="salvar">
+
+        Salvar
+    </string>
+
+
+
+
+    <!-- Cancelar -->
+    <TextView
+        android:id="@+id/cancelar"
+        android:layout_width="79dp"
+        android:layout_height="23dp"
+        android:text="@string/cancelar"
+        android:textAppearance="@style/cancelar"
+        android:gravity="top"
+        />
+
+    <!--
+      Font family: Roboto
+      Line height: 23sp
+    -->
+    <!-- styles.xml -->
+    <style name="cancelar">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #A4E5C2
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="cancelar">
+
+        Cancelar
+    </string>
+
+
+
+
+    <!-- Rectangle 22 -->
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rectangle_2"
+        />
+
+
+    <!-- drawable/rectangle_2.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="100dp"
+        android:height="45dp"
+        android:viewportWidth="100"
+        android:viewportHeight="45"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M19 0H81C91.4934 0 100 8.50659 100 19V26C100 36.4934 91.4934 45 81 45H19C8.50659 45 0 36.4934 0 26V19C0 8.50659 8.50659 0 19 0Z"
+                />
+
+            <path
+                android:pathData="M0 0V45H100V0"
+                android:fillColor="#003F1D"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- Rectangle 23 -->
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rectangle_2"
+        />
+
+
+    <!-- drawable/rectangle_2.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="100dp"
+        android:height="45dp"
+        android:viewportWidth="100"
+        android:viewportHeight="45"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M19 0H81C91.4934 0 100 8.50659 100 19V26C100 36.4934 91.4934 45 81 45H19C8.50659 45 0 36.4934 0 26V19C0 8.50659 8.50659 0 19 0Z"
+                />
+
+            <path
+                android:pathData="M0 0V45H100V0"
+                android:fillColor="#003F1D"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- camera-fotografica 3 -->
+    <View
+        android:id="@+id/camera_foto"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:background="@drawable/camera_foto"
+        />
+
+
+    <!-- drawable/camera_foto.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="33dp"
+        android:height="31dp"
+        android:viewportWidth="33"
+        android:viewportHeight="31"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0H33V31H0V0Z"
+                />
+
+        </group>
+
+    </vector>
+
+
+
+    <!-- anexo 1 -->
+    <View
+        android:id="@+id/anexo_1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/anexo_1"
+        />
+
+
+    <!-- drawable/anexo_1.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="35dp"
+        android:height="35dp"
+        android:viewportWidth="35"
+        android:viewportHeight="35"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0H35V35H0V0Z"
+                />
+
+        </group>
+
+    </vector>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

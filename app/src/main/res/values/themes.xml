@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="borderlessButtonStyle">@color/verde_escuro2</item>
+        <item name="backgroundColor">@color/verde_escuro</item>
+        <item name="background">@color/verde</item>
+        <item name="colorPrimaryDark">@color/verde_azulado_escuro</item>
+        <item name="color">@color/Verde_azulado</item>
+        <item name="colorSecondary">@color/verde_claro_azulado_2</item>
+        <item name="colorOnSecondary">@color/verde_claro_azulado_1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/verde_escuro2</item>
+        <item name="android:actionMenuTextColor">@color/verde_claro_azulado_2</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MyApplication.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+</resources>

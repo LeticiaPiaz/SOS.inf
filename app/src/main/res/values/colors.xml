@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="verde_escuro3">#001C00</color>
+    <color name="verde_escuro2">#002914</color>
+    <color name="verde_escuro">#003300</color>
+    <color name="verde">#003F1D</color>
+    <color name="verde_azulado_escuro">#00585A</color>
+    <color name="Verde_azulado">#FF018786</color>
+    <color name="verde_claro_azulado_2">#5AAF81</color>
+    <color name="verde_claro_azulado_1">#A4E5C2</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="teste">
+        <item name="android:text">@string/meus</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#A4E5C2</item>
+    </style>
+
+<!--****************** LOGIN ********************** -->
+    <style name="login">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/verde_claro_azulado_2</item>
+    </style>
+    <style name="senha">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/verde_claro_azulado_2</item>
+    </style>
+    <style name="entrar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/verde_claro_azulado_2</item>
+    </style>
+    <style name="esqueceu_a_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/verde_claro_azulado_1</item>
+    </style>
+
+<!--****************** CADASTRO DE CHAMADOS ******************-->
+    <style name="novo_chamad">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#A4E5C2</item>
+    </style>
+</resources>
